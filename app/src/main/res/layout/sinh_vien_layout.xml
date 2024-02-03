@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:text="name"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:text="Age: "
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnPlusAge"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ic_plus_foreground"
+        android:hint="plus" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnMinusAge"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:hint="minus"
+        android:background="@drawable/ic_minus_foreground"/>
+
+</LinearLayout>
